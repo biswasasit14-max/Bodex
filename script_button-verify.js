@@ -17,6 +17,8 @@ let solution = null;
     alert("Invalid passkey. Try again.");
   }
 }
+//Captcha function is disabled, suggest some another hosting service where server side and static files are supported
+/*
 function onCaptchaSuccess(token) {
   // Send token to backend for verification
   fetch("verify_captcha.php", {
@@ -36,4 +38,5 @@ function onCaptchaSuccess(token) {
         }
     })
     .catch(err => console.error("Error verifying CAPTCHA:", err));
-}
+
+} */
